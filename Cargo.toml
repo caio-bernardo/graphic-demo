@@ -1,0 +1,9 @@
+[package]
+name = "winit-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pollster = "0.3.0"
+wgpu = "22.0.0"
+winit = { version = "0.30.4", features = ["rwh_05"] }
